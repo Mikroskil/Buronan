@@ -1,0 +1,56 @@
+<?php
+mysql_connect("localhost", "root", "");
+mysql_select_db("tracerstudy");
+
+$F302 = $_REQUEST['F302'];
+$F303 = $_REQUEST['F303'];
+$F304 = $_REQUEST['F304'];
+$F401 = $_REQUEST['F401'];
+$F402 = $_REQUEST['F402'];
+$F403 = $_REQUEST['F403'];
+$F404 = $_REQUEST['F404'];
+$F405 = $_REQUEST['F405'];
+$F406 = $_REQUEST['F406'];
+$F407 = $_REQUEST['F407'];
+$F408 = $_REQUEST['F408'];
+$F409 = $_REQUEST['F409'];
+$F410 = $_REQUEST['F410'];
+$F411 = $_REQUEST['F411'];
+$F412 = $_REQUEST['F412'];
+$F413 = $_REQUEST['F413'];
+$F414 = $_REQUEST['F414'];
+$F415 = $_REQUEST['F415'];
+$F416 = $_REQUEST['F416'];
+$F502 = $_REQUEST['F502'];
+$F503 = $_REQUEST['F503'];
+$F6 = $_REQUEST['F6'];
+$F7 = $_REQUEST['F7'];
+$F901 = $_REQUEST['F901'];
+$F902 = $_REQUEST['F902'];
+$F903 = $_REQUEST['F903'];
+$F904 = $_REQUEST['F904'];
+$F905 = $_REQUEST['F905'];
+$F906 = $_REQUEST['F906'];
+$F1002 = $_REQUEST['F1002'];
+$F1102 = $_REQUEST['F1102'];
+$F1301 = $_REQUEST['F1301'];
+$F1302 = $_REQUEST['F1302'];
+$F1303 = $_REQUEST['F1303'];
+$F1601 = $_REQUEST['F1601'];
+$F1602 = $_REQUEST['F1602'];
+$F1603 = $_REQUEST['F1603'];
+$F1604 = $_REQUEST['F1604'];
+$F1605 = $_REQUEST['F1605'];
+$F1606 = $_REQUEST['F1606'];
+$F1607 = $_REQUEST['F1607'];
+$F1608 = $_REQUEST['F1608'];
+$F1609 = $_REQUEST['F1609'];
+$F1610 = $_REQUEST['F1610'];
+$F1611 = $_REQUEST['F1611'];
+$F1612 = $_REQUEST['F1612'];
+$F1613 = $_REQUEST['F1613'];
+$F1614 = $_REQUEST['F1614'];
+
+$q = mysql_query("INSERT INTO formtc VALUES ('$F302', '$F303', '$F304', '$F401', '$F402', '$F403', '$F404', '$F405', '$F406', '$F407', '$F408', '$F409', '$F410', '$F411', '$F412', '$F413', '$F414', '$F415', '$F416', '$F502', '$F503', '$F6', '$F7', '$F901', '$F902', '$F903', '$F904', '$F905', '$F906', '$F1002', '$F1102', '$F1301', '$F1302', '$F1303', '$F1601', '$F1602', '$F1603', '$F1604', '$F1605', '$F1606', '$F1607', '$F1608', '$F1609', '$F1610', '$F1611', '$F1612', '$F1613', '$F1614')");
+echo $q ? 'Simpan Data Berhasil' : 'Error saat menyimpan data';
+?>
