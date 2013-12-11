@@ -155,7 +155,7 @@ function getData(dataSource) //menampilkan kemungkinan hasil nama barang yang di
 
 <div id="wrap">
 
-		<?php include('includes/nav.php'); ?>
+		<?php include('includes/navlogin.php'); ?>
       <div class="container">
         <div class="breadcrumb">   
           
