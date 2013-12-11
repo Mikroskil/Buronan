@@ -32,6 +32,6 @@
 		$nim = $_GET['nim'];
 		$query = mysql_query("SELECT * FROM mahasiswa WHERE nim='$nim'");
 		$info = mysql_fetch_row($query);
-		echo "NIM : ".$info[0]."<BR>Nama : ".$info[1]."<BR>Jurusan : ".$info[2];
+		echo "<img height='200px' width='130px' src='profilepicture/".$info[19]."'><br><br><b>NIM : ".$info[0]."<BR>Nama : ".$info[1]."<BR>Jurusan : ".$info[2]."</b>";
 	}
 ?>
